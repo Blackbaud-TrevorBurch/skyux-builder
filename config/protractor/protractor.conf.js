@@ -2,7 +2,7 @@
 'use strict';
 
 const path = require('path');
-const SpecReporter = require('jasmine-spec-reporter');
+const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 var jasmineReporters = require('jasmine-reporters');
 var fs = require('fs-extra');
 
