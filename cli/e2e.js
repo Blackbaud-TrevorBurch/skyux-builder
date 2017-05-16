@@ -116,7 +116,7 @@ function spawnSelenium() {
         '.bin',
         'webdriver-manager'
       );
-      spawn.sync(webdriverManagerPath, ['update', '--versions.chrome', '2.29'], spawnOptions);
+      spawn.sync(webdriverManagerPath, ['update'], spawnOptions);
       logger.info('Selenium server is ready.');
       resolve();
     }
